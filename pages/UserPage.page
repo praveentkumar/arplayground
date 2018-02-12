@@ -1,0 +1,15 @@
+<apex:page controller="UserController">
+    <apex:form >
+    	<apex:pageBlock mode="Edit">
+            <apex:pageBlockButtons >
+            	<apex:commandButton value="Send Request" action="{!sendRequest}"/>
+            </apex:pageBlockButtons>
+        	<apex:pageBlockSection columns="2">
+            	FirstName &nbsp;:&nbsp;<apex:outputText value="{!usr.firstname}"/>
+                Lastname &nbsp;:&nbsp;<apex:outputText value="{!usr.lastname}"/>
+                Phone  &nbsp;:&nbsp;<apex:outputText value="{!usr.phone}"/>
+                Mobile &nbsp;:&nbsp;<apex:outputText value="{!usr.mobile}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
