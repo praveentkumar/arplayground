@@ -22,16 +22,4 @@ Public class Accountclass{
         }
         update act;
     }
-	
-	/**
-    * Revenue Method
-      New Comment test comment
-    */ 
-    public void updateRevenue1(){
-        List<Account> act = [select id,name from Account where industry='Agriculture'];
-        for(Account ac:act){
-             ac.AnnualRevenue = 150;
-        }
-        update act;
-    }
 }
