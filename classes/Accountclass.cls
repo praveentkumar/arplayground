@@ -22,6 +22,4 @@ Public class Accountclass{
         }
         update act;
     }
-	
-	///6a41bb638020016923265b67dddfbc1c1128d92a
 }
